@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energia - Agrinho 2025</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="energia.css">
+</head>
+
+<body>
+    <section class="cabecalho">
+        <h1>AGRINHO 2025</h1>
+        <h3>Festejando Conexão Campo Cidade</h3>
+    </section>
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow">
+        <div class="container">
+            <a class="navbar-brand" href="#">🌾 Meu Campo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="index.html">Início</a>
+                    <a class="nav-link" href="energia.html">Energia</a>
+                    <a class="nav-link" href="agua.html">Água</a>
+                    <a class="nav-link" href="producao.html">Produção</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <audio id="musica" autoplay loop playsinline>
+  <source src="Sol em Mim.mp3" type="audio/mpeg" />
+  Seu navegador não suporta áudio.
+</audio>
+
+<script>
+  const audio = document.getElementById('musica');
+  audio.volume = 1; // volume máximo
+</script>
+
+    <audio id="somClick" src="neri (online-audio-converter.com).mp3" preload="auto"></audio>
+
+  <script>
+    const som = document.getElementById("somClick");
+
+    document.addEventListener("click", () => {
+      som.pause();
+      som.currentTime = 0;
+      som.playbackRate = 2; // <-- aqui aumenta a velocidade
+      som.play().catch((e) => {
+        console.log("Erro ao tocar o som:", e);
+      });
+    });
+  </script>
+
+    <main class="container mt-5">
+        <h1>Transformando o Campo com Energia Sustentável: Caminhos para um Futuro Renovável</h1>
+
+<p>A adoção da energia sustentável no meio rural representa uma revolução silenciosa que transforma a vida nas comunidades do campo. O uso crescente de fontes renováveis, como a energia solar e eólica, não apenas impulsiona o desenvolvimento econômico, mas também fortalece a autonomia local e protege os recursos naturais essenciais para as próximas gerações.</p>
+
+<p>No campo, onde muitas vezes o acesso à eletricidade ainda é limitado ou instável, projetos de energia solar têm se mostrado uma solução eficiente e acessível. Essas iniciativas possibilitam que agricultores e moradores rurais produzam sua própria energia, reduzindo significativamente a dependência dos combustíveis fósseis, que além de poluentes, geram custos elevados a longo prazo.</p>
+
+<p>Além dos benefícios econômicos, a energia renovável no meio rural promove impactos sociais positivos ao melhorar a qualidade de vida, facilitando o acesso a serviços básicos como iluminação, comunicação e armazenamento de alimentos. Comunidades autossuficientes em energia conseguem investir melhor em educação, saúde e tecnologia, impulsionando o desenvolvimento sustentável.</p>
+
+<p>Outro ponto importante é o impacto ambiental: a substituição de fontes tradicionais por energias limpas contribui para a redução das emissões de gases de efeito estufa, preservando a biodiversidade e os ecossistemas locais. Assim, o campo se torna não apenas um produtor de alimentos, mas também um protagonista na luta contra as mudanças climáticas.</p>
+
+<p>Investir em energia sustentável no campo é, portanto, um passo decisivo para construir uma matriz energética mais limpa, garantir o bem-estar das populações rurais e consolidar um modelo de desenvolvimento que respeita o meio ambiente e valoriza as potencialidades do território.</p>
+
+        <div class="text-center mt-4">
+            <img src="./assets/image/poste-img1.png.jpeg" class="img-fluid rounded" alt="Energia Sustentável">
+        </div>
+
+        <h3 class="mt-5">Benefícios da Energia Sustentável no Meio Rural</h3>
+       
+
+<p>A adoção de fontes renováveis no campo traz múltiplos benefícios que impactam positivamente a vida das comunidades rurais e o meio ambiente.</p>
+
+<ul>
+  <li><strong>Redução significativa dos custos com energia elétrica:</strong> A utilização de energia solar e eólica permite que produtores rurais diminuam seus gastos, alcançando maior independência financeira.</li>
+  <li><strong>Minimização do impacto ambiental:</strong> Substituir combustíveis fósseis por fontes limpas reduz a emissão de gases poluentes, preservando os ecossistemas locais e ajudando a combater as mudanças climáticas.</li>
+  <li><strong>Geração de empregos e fortalecimento da economia local:</strong> A instalação e manutenção de sistemas de energia sustentável criam novas oportunidades de trabalho e impulsionam o desenvolvimento econômico nas comunidades.</li>
+  <li><strong>Melhoria da saúde e qualidade de vida:</strong> O acesso a energia limpa e confiável facilita serviços essenciais, melhora condições sanitárias e promove um ambiente mais saudável para os moradores rurais.</li>
+</ul>
+
+
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+  <thead style="background-color: #4CAF50; color: white;">
+    <tr>
+      <th>Aspecto</th>
+      <th>Energia no Campo</th>
+      <th>Energia na Cidade</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Fontes de Energia</strong></td>
+      <td>
+        Predominantemente fontes renováveis locais como solar, eólica e biomassa. Também uso de geradores diesel em áreas isoladas. Energia hidráulica em pequenas centrais.<br>
+        Uso crescente de sistemas off-grid e microgeração distribuída.
+      </td>
+      <td>
+        Predominância de energia elétrica da rede nacional, com matriz diversificada incluindo termoelétrica, hidrelétrica, e crescente participação de renováveis.<br>
+        Energia urbana de alta densidade e diversificada.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Acesso à Energia</strong></td>
+      <td>
+        Muitas áreas rurais ainda enfrentam acesso limitado ou instável à eletricidade.<br>
+        Projetos de eletrificação rural focam em levar energia limpa a comunidades isoladas.
+      </td>
+      <td>
+        Praticamente 100% de cobertura com fornecimento contínuo e confiável.<br>
+        Infraestrutura robusta com múltiplas fontes e redes de backup.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Consumo Médio</strong></td>
+      <td>
+        Consumo geralmente baixo a moderado, ligado principalmente a necessidades básicas: iluminação, irrigação, pequenos maquinários e refrigeração.<br>
+        Consumo varia conforme porte da propriedade e tecnologia adotada.
+      </td>
+      <td>
+        Consumo elevado e diversificado: iluminação, transporte, indústrias, escritórios, eletrodomésticos, sistemas de climatização e tecnologia.<br>
+        Alta demanda especialmente em grandes centros comerciais e industriais.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Custo da Energia</strong></td>
+      <td>
+        Geralmente mais alto por conta da logística, dificuldade de acesso e uso de combustíveis fósseis em geradores.<br>
+        Crescente uso de energia solar tem reduzido custos a longo prazo.
+      </td>
+      <td>
+        Custo médio controlado pela escala e eficiência da rede.<br>
+        Tarifas variam conforme consumo e política urbana.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Impacto Ambiental</strong></td>
+      <td>
+        Energia limpa predominante reduz emissões locais.<br>
+        No entanto, uso de diesel e lenha ainda contribuem para poluição e desmatamento.<br>
+        Projetos sustentáveis ajudam a conservar o meio ambiente.
+      </td>
+      <td>
+        Maior impacto ambiental devido a alta concentração urbana e consumo intenso.<br>
+        Poluição por queima de combustíveis fósseis em veículos e indústrias.<br>
+        Esforços para reduzir carbono via energias renováveis e eficiência energética.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Infraestrutura</strong></td>
+      <td>
+        Infraestrutura dispersa e muitas vezes limitada.<br>
+        Sistemas autônomos como painéis solares e turbinas eólicas pequenas são comuns.<br>
+        Linhas de transmissão extensas e caras para conectar áreas remotas.
+      </td>
+      <td>
+        Infraestrutura consolidada, com subestações, redes subterrâneas e aéreas.<br>
+        Alta capacidade de distribuição e manutenção constante.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Inovação Tecnológica</strong></td>
+      <td>
+        Rápida adoção de tecnologias renováveis descentralizadas.<br>
+        Uso crescente de baterias, IoT para monitoramento e gestão energética.<br>
+        Incentivos para sistemas híbridos e microgrids.
+      </td>
+      <td>
+        Integração com redes inteligentes (smart grids), automação predial e sistemas de gestão de energia.<br>
+        Avanços em eficiência, armazenamento e fontes renováveis urbanas.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Benefícios Sociais</strong></td>
+      <td>
+        Melhora da qualidade de vida, acesso a serviços básicos, educação e saúde.<br>
+        Geração de empregos locais na instalação e manutenção dos sistemas.<br>
+        Fortalecimento da autonomia energética das comunidades.
+      </td>
+      <td>
+        Acesso facilitado a serviços públicos e privados.<br>
+        Impacto positivo na economia urbana e qualidade de vida geral.<br>
+        Programas para inclusão energética e sustentabilidade.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Desafios</strong></td>
+      <td>
+        Logística complicada, alto custo inicial e necessidade de capacitação técnica.<br>
+        Intermitência das fontes renováveis exige sistemas complementares.<br>
+        Manutenção e financiamento ainda são barreiras importantes.
+      </td>
+      <td>
+        Gestão da alta demanda e redução de perdas na rede.<br>
+        Integração crescente de fontes renováveis sem comprometer estabilidade.<br>
+        Políticas públicas para controle do impacto ambiental e eficiência.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+        <h3 class="mt-5">Temas em Destaque</h3>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#modalEnergiaSolar">
+                    <img src="./assets/image/poste.png.jpeg" class="card-img-top" alt="Energia Solar">
+                    <div class="card-body">
+                        <h5 class="card-title">Energia Renovável e Sustentabilidade </h5>
+                        <p class="card-text"><p>
+    <strong>Fontes renováveis</strong> como solar e eólica ajudam a preservar o meio ambiente e reduzem a poluição. São alternativas limpas e em crescimento no mundo todo.
+</p>
+</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#modalEnergiaEolica">
+                    <img src="./assets/image/luz.png.jpeg" class="card-img-top" alt="Energia Eólica">
+                    <div class="card-body">
+                        <h5 class="card-title">Desafios e Soluções para a Energia no Campo </h5>
+                        <p class="card-text"><p>
+    <strong>A energia no campo</strong> enfrenta desafios como o acesso limitado. Fontes renováveis são soluções viáveis para modernizar e fortalecer a produção rural.
+</p>
+</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#modalBiomassa">
+                    <img src="./assets/image/tomada.png.jpeg" class="card-img-top" alt="Biomassa">
+                    <div class="card-body">
+                        <h5 class="card-title">O Futuro da Energia nas Cidades Inteligentes</h5>
+                        <p class="card-text"><p>
+    <strong>Cidades inteligentes</strong> usam tecnologia para economizar energia, integrar renováveis, otimizar serviços urbanos e melhorar a qualidade de vida.
+</p>
+</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modais -->
+    <div class="modal fade" id="modalEnergiaSolar" tabindex="-1" aria-labelledby="modalEnergiaSolarLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalEnergiaSolarLabel">Energia Renovável e Sustentabilidade </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+<p>
+    A energia renovável desempenha um papel fundamental na construção de um futuro sustentável. Ao contrário das fontes fósseis, essas energias são obtidas de recursos naturais que se regeneram constantemente, como o sol, o vento, a água e a biomassa. Elas não emitem gases poluentes durante sua geração e ajudam a combater as mudanças climáticas.
+</p>
+<p>
+    Com o avanço da tecnologia, essas fontes tornaram-se mais acessíveis e eficientes. Além disso, governos ao redor do mundo têm incentivado sua adoção por meio de políticas públicas e subsídios. A diversificação da matriz energética é crucial para garantir a segurança energética e reduzir a dependência de fontes esgotáveis.
+</p>
+<strong>Principais pontos:</strong>
+<ul>
+    <li>Fontes limpas: solar, eólica, hídrica e biomassa</li>
+    <li>Redução de emissões de CO₂ e impacto ambiental</li>
+    <li>Incentivos governamentais e políticas verdes</li>
+    <li>Avanços tecnológicos em geração e armazenamento</li>
+    <li>Contribuição para a independência energética</li>
+</ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalEnergiaEolica" tabindex="-1" aria-labelledby="modalEnergiaEolicaLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalEnergiaEolicaLabel">Desafios e Soluções para a Energia no Campo </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+<p>
+    A energia é um fator crucial para o desenvolvimento da zona rural, mas muitas regiões enfrentam sérias limitações no acesso à eletricidade. A falta de infraestrutura adequada impacta diretamente na produção agrícola, no armazenamento de alimentos e na qualidade de vida das comunidades.
+</p>
+<p>
+    Felizmente, alternativas sustentáveis como os sistemas solares fotovoltaicos e as turbinas eólicas de pequeno porte têm sido implantadas com sucesso no meio rural. Além disso, programas governamentais e parcerias com organizações têm ajudado na capacitação dos agricultores e na expansão da energia limpa.
+</p>
+<strong>Soluções e desafios:</strong>
+<ul>
+    <li>Dificuldade de acesso à rede elétrica tradicional</li>
+    <li>Impactos na produção e no cotidiano rural</li>
+    <li>Uso de energia solar e eólica no campo</li>
+    <li>Sistemas de microgeração e baterias off-grid</li>
+    <li>Necessidade de investimentos e políticas públicas</li>
+</ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalBiomassa" tabindex="-1" aria-labelledby="modalBiomassaLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalBiomassaLabel">O Futuro da Energia nas Cidades Inteligentes</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+<p>
+    As cidades inteligentes representam uma nova abordagem para o uso da energia. Combinando tecnologia, eficiência e sustentabilidade, esses ambientes urbanos utilizam redes inteligentes, sensores e fontes renováveis para otimizar o consumo de energia e reduzir impactos ambientais.
+</p>
+<p>
+    Soluções como painéis solares em edifícios, carros elétricos, iluminação pública automatizada e redes elétricas inteligentes (smart grids) tornam as cidades mais resilientes, econômicas e sustentáveis. Além disso, o cidadão tem mais controle e consciência sobre o uso da energia por meio de aplicativos e plataformas digitais.
+</p>
+<strong>Características das cidades inteligentes:</strong>
+<ul>
+    <li>Uso de energia solar em áreas urbanas</li>
+    <li>Redes elétricas inteligentes (smart grids)</li>
+    <li>Integração de transporte elétrico e sustentável</li>
+    <li>Monitoramento e automação do consumo</li>
+    <li>Participação ativa dos cidadãos no uso consciente</li>
+</ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="margin: 0 auto; width: 80%; text-align:center; background-color:white; color:black; padding:20px; font-family:Arial, sans-serif;">
+  <p><strong>Energia Sustentável no Campo</strong><br>
+  Fonte: Ministério de Minas e Energia (MME)<br>
+  <a href="https://www.gov.br/mme/pt-br/assuntos/energia" target="_blank" style="color:purple; text-decoration:none;">
+    https://www.gov.br/mme/pt-br/assuntos/energia
+  </a></p>
+</div>
+
+    <footer class="bg-dark text-light text-center py-3 mt-5">
+        <small>&copy; 2025 Agrinho | Site desenvolvido por estudante do Ensino Fundamental com orgulho rural 🌱</small>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produção - Agrinho 2025</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="energia.css">
+</head>
+
+<body>
+    <section class="cabecalho">
+        <h1>AGRINHO 2025</h1>
+        <h3>Festejando Conexão Campo Cidade</h3>
+    </section>
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow">
+        <div class="container">
+            <a class="navbar-brand" href="#">🌾 Meu Campo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="index.html">Início</a>
+                    <a class="nav-link" href="energia.html">Energia</a>
+                    <a class="nav-link" href="agua.html">Água</a>
+                    <a class="nav-link" href="producao.html">Produção</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <audio id="musica" autoplay loop playsinline>
+  <source src="Sol em Mim.mp3" type="audio/mpeg" />
+  Seu navegador não suporta áudio.
+</audio>
+
+<script>
+  const audio = document.getElementById('musica');
+  audio.volume = 1; // volume máximo
+</script>
+
+    <audio id="somClick" src="neri (online-audio-converter.com).mp3" preload="auto"></audio>
+
+  <script>
+    const som = document.getElementById("somClick");
+
+    document.addEventListener("click", () => {
+      som.pause();
+      som.currentTime = 0;
+      som.playbackRate = 2; // <-- aqui aumenta a velocidade
+      som.play().catch((e) => {
+        console.log("Erro ao tocar o som:", e);
+      });
+    });
+  </script>
+
+    <main class="container mt-5">
+        <div class="container mt-5">
+  <!-- Primeira seção: imagem à esquerda, texto à direita -->
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6">
+      <img src="assets/image/producao1.png.jpeg" alt="Produção Rural" class="img-fluid rounded" />
+    </div>
+    <div class="col-md-6">
+      <h2>Produção e Industrialização: A Ponte Essencial entre o Campo e a Economia Nacional</h2>
+      <p>
+        A produção rural representa um pilar fundamental da economia nacional, sendo responsável por abastecer não apenas as cidades, mas também diversos setores industriais que dependem diretamente dos insumos agrícolas. A cadeia produtiva que vai do campo à indústria conecta agricultores, cooperativas, processadores e consumidores, formando um ecossistema complexo e vital para o desenvolvimento econômico do país.
+      </p>
+      <p>
+        Dentro desse contexto, a valorização da agricultura familiar destaca-se como um motor crucial para o fortalecimento das economias locais, gerando empregos, renda e promovendo o desenvolvimento social das comunidades rurais. Ao mesmo tempo, a adoção de práticas agrícolas sustentáveis, que respeitam o meio ambiente e incentivam a conservação dos recursos naturais, torna-se imprescindível para garantir a longevidade da produção e a segurança alimentar das gerações presentes e futuras.
+      </p>
+      <p>
+        A industrialização dos produtos rurais agrega valor à matéria-prima, abre novos mercados e aumenta a competitividade no cenário global. Investir em tecnologia, infraestrutura e capacitação dos produtores é fundamental para promover uma produção eficiente, sustentável e capaz de atender à demanda crescente por alimentos de qualidade, além de incentivar a diversificação econômica no meio rural.
+      </p>
+    </div>
+  </div>
+
+  <!-- Segunda seção: imagem à direita, texto à esquerda -->
+  <div class="row align-items-center">
+    <div class="col-md-6 order-md-2">
+      <img src="assets/image/producao2.png.jpeg" alt="Desenvolvimento Sustentável" class="img-fluid rounded" />
+    </div>
+    <div class="col-md-6 order-md-1">
+      <h2>Desenvolvimento Sustentável: Caminhos para um Futuro Rural Equilibrado</h2>
+      <p>
+        O desenvolvimento sustentável no meio rural é essencial para garantir que as atividades econômicas coexistam harmoniosamente com a preservação ambiental e o bem-estar social. Práticas responsáveis que promovem o uso racional dos recursos naturais, a conservação da biodiversidade e o incentivo à agricultura orgânica contribuem para a manutenção do equilíbrio ecológico.
+      </p>
+      <p>
+        A integração entre inovação tecnológica e saberes tradicionais permite aumentar a produtividade agrícola sem comprometer os recursos naturais, gerando benefícios a longo prazo para as comunidades rurais e para o planeta. Além disso, políticas públicas e parcerias locais são fundamentais para viabilizar investimentos em infraestrutura, educação e saúde, elementos indispensáveis para o fortalecimento das regiões rurais.
+      </p>
+      <p>
+        Construir um futuro rural sustentável significa garantir qualidade de vida para as próximas gerações, valorizando o meio ambiente e promovendo a justiça social em todas as etapas da produção e do desenvolvimento.
+      </p>
+    </div>
+  </div>
+</div>
+
+        
+        <!-- Três Imagens Abaixo do Texto Principal -->
+        <h3 class="mt-5">Imagens da Produção</h3>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <img src="assets/image/producao3.png.jpeg" class="img-fluid rounded" alt="Imagem 1">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="assets/image/producao4.png.jpeg" class="img-fluid rounded" alt="Imagem 2">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="./assets/image/producao5.png.jpeg" class="img-fluid rounded" alt="Imagem 3">
+            </div>
+        </div>
+
+        <h3 class="mt-5">Desafios da Produção Rural</h3>
+<ul>
+  <li><strong>Adaptação às mudanças climáticas:</strong> Enfrentar variações climáticas extremas, como secas prolongadas e chuvas irregulares, exige o desenvolvimento de estratégias resilientes que garantam a continuidade da produção e minimizem impactos ambientais.</li>
+  <li><strong>Desenvolvimento de técnicas agrícolas sustentáveis:</strong> A implementação de práticas que conservem o solo, reduzam o uso de agroquímicos e aumentem a eficiência no uso da água é essencial para promover a sustentabilidade e proteger os recursos naturais.</li>
+  <li><strong>Acesso a mercados e preços justos:</strong> Superar barreiras logísticas, fortalecer canais de comercialização e garantir que os produtores rurais recebam preços adequados pelo seu trabalho são desafios que impactam diretamente a viabilidade econômica das propriedades.</li>
+  <li><strong>Valorização da produção local:</strong> Incentivar o consumo de produtos regionais fortalece a economia local, promove a cultura agrícola e reduz a dependência de importações, contribuindo para o desenvolvimento sustentável das comunidades rurais.</li>
+</ul>
+
+
+        
+
+        <!-- Tabela com Informações -->
+        <h3 class="mt-5">Tabela de Produção</h3>
+        <table class="table table-bordered mt-3">
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Quantidade (toneladas)</th>
+                    <th>Preço por tonelada (R$)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Milho</td>
+                    <td>500</td>
+                    <td>600</td>
+                </tr>
+                <tr>
+                    <td>Soja</td>
+                    <td>300</td>
+                    <td>1.200</td>
+                </tr>
+                <tr>
+                    <td>Trigo</td>
+                    <td>200</td>
+                    <td>800</td>
+                </tr>
+                <tr>
+                    <td>Feijão</td>
+                    <td>150</td>
+                    <td>1.000</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <div style="margin: 0 auto; width: 80%; text-align:center; background-color:white; color:black; padding:20px; font-family:Arial, sans-serif;">
+  <p><strong>Produção e Industrialização no Meio Rural</strong><br>
+  Fonte: Empresa Brasileira de Pesquisa Agropecuária (EMBRAPA)<br>
+  <a href="https://www.embrapa.br" target="_blank" style="color:purple; text-decoration:none;">
+    https://www.embrapa.br
+  </a></p>
+</div>
+
+    <footer class="bg-dark text-light text-center py-3 mt-5">
+        <small>&copy; 2025 Agrinho | Site desenvolvido por estudante do Ensino Fundamental com orgulho rural 🌱</small>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+

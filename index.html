@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="energia.css">
+</head>
+
+<body>
+    <section class="cabecalho">
+        <h1>AGRINHO 2025</h1>
+        <h3>Festejando Conexão Campo Cidade</h3>
+    </section>
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow">
+        <div class="container">
+            <a class="navbar-brand" href="#">🌾 Meu Campo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="index.html">Início</a>
+                    <a class="nav-link" href="energia.html">Energia</a>
+                    <a class="nav-link" href="agua.html">Água</a>
+                    <a class="nav-link" href="producao.html">Produção</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <audio id="musica" autoplay loop playsinline>
+  <source src="Sol em Mim.mp3" type="audio/mpeg" />
+  Seu navegador não suporta áudio.
+</audio>
+
+<script>
+  const audio = document.getElementById('musica');
+  audio.volume = 1; // volume máximo
+</script>
+
+    <audio id="somClick" src="neri (online-audio-converter.com).mp3" preload="auto"></audio>
+
+  <script>
+    const som = document.getElementById("somClick");
+
+    document.addEventListener("click", () => {
+      som.pause();
+      som.currentTime = 0;
+      som.playbackRate = 2; // <-- aqui aumenta a velocidade
+      som.play().catch((e) => {
+        console.log("Erro ao tocar o som:", e);
+      });
+    });
+  </script>
+
+    <main class="container mt-5">
+        <div class="row align-items-center">
+            <!-- TEXTO AGORA À ESQUERDA -->
+            <div class="col-md-6">
+                <h1>A Importância Vital da Zona Rural para o Desenvolvimento e a Cultura</h1>
+
+<p>A zona rural exerce um papel essencial e multifacetado dentro da estrutura social e econômica de um país. Muito mais do que simplesmente uma área de produção agrícola, o campo é o coração pulsante que garante o abastecimento alimentar das cidades, fornecendo alimentos frescos, saudáveis e indispensáveis para o dia a dia da população urbana.</p>
+
+<p>Além disso, a zona rural é um espaço onde se mantém vivas tradições culturais, costumes, práticas e saberes ancestrais que formam a identidade nacional. Esses conhecimentos transmitidos de geração em geração revelam uma conexão profunda com a natureza e com o ciclo da vida, refletindo valores de respeito ao meio ambiente e à sustentabilidade.</p>
+
+<p>Embora esteja distante fisicamente dos centros urbanos, a zona rural tem se aproximado cada vez mais das cidades por meio do avanço da tecnologia, do comércio e da comunicação. A internet e as inovações tecnológicas permitem que produtores rurais acessem informações, mercados e ferramentas que aumentam a produtividade e promovem uma gestão mais eficiente das propriedades.</p>
+
+<p>Essa integração crescente entre campo e cidade é fundamental para o desenvolvimento sustentável do país, pois promove a valorização do trabalho rural, gera empregos, reduz desigualdades regionais e contribui para a preservação dos recursos naturais. Investir na zona rural significa investir no futuro, garantindo segurança alimentar, conservação ambiental e a continuidade das culturas locais.</p>
+
+<p>Portanto, compreender e valorizar a zona rural é reconhecer a importância de um setor que impacta diretamente a vida de todos, fortalecendo a economia, a cultura e o equilíbrio ambiental de forma integrada e harmoniosa.</p>
+
+            </div>
+            <!-- IMAGEM À DIREITA -->
+            <div class="col-md-6 text-center">
+                <img src="./assets/image/campo.png.jpeg" class="img-fluid rounded shadow" alt="Plantação">
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <h3 class="text-center mb-4">Campo e Cidade: Comparativo</h3>
+            <table class="table table-striped table-hover text-center">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Aspecto</th>
+                        <th>Campo</th>
+                        <th>Cidade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fonte de Renda</td>
+                        <td>Agricultura e Pecuária</td>
+                        <td>Comércio, Serviços e Indústria</td>
+                    </tr>
+                    <tr>
+                        <td>Qualidade do Ar</td>
+                        <td>Alta, menos poluição</td>
+                        <td>Média/baixa devido à poluição</td>
+                    </tr>
+                    <tr>
+                        <td>Estilo de Vida</td>
+                        <td>Calmo, tradicional</td>
+                        <td>Agitado, moderno</td>
+                    </tr>
+                    <tr>
+                        <td>Conexões Tecnológicas</td>
+                        <td>Crescentes com avanço da internet rural</td>
+                        <td>Ampla conectividade</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <style>
+  .timeline {
+    position: relative;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px 0;
+  }
+
+  /* Linha horizontal */
+  .timeline::before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #4CAF50;
+    border-radius: 2px;
+  }
+
+  /* Cada ponto da timeline */
+  .event {
+    position: relative;
+    display: inline-block;
+    width: 18%;
+    text-align: center;
+    vertical-align: top;
+  }
+
+  /* Círculo indicador */
+  .event::before {
+    content: '';
+    position: absolute;
+    top: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 16px;
+    height: 16px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.6);
+    z-index: 1;
+  }
+
+  /* Texto abaixo do ponto */
+  .event p {
+    margin-top: 45px;
+    font-size: 14px;
+    color: #333;
+    max-width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+</style>
+
+<div class="timeline">
+  <div class="event">
+    <p>Produção de Alimentos: Abastecimento das cidades</p>
+  </div>
+  <div class="event">
+    <p>Preservação de Tradições e Saberes</p>
+  </div>
+  <div class="event">
+    <p>Conexão tecnológica entre campo e cidade</p>
+  </div>
+  <div class="event">
+    <p>Promoção do desenvolvimento sustentável</p>
+  </div>
+  <div class="event">
+    <p>Valorização do trabalho rural e economia</p>
+  </div>
+</div>
+
+<h1>Zona Rural: O Pulsar Esquecido que Sustenta a Vida Moderna</h1>
+
+<p>Quando pensamos em progresso e modernidade, é comum que a zona rural fique em segundo plano, quase invisível para o grande público. No entanto, é justamente nesse espaço onde a natureza e o trabalho humano se entrelaçam que se desenrola uma história vital para a sobrevivência das cidades e para a manutenção do equilíbrio ambiental.</p>
+
+<p>A zona rural não é apenas um cenário para a agricultura tradicional; ela é um laboratório vivo de inovação silenciosa, onde agricultores têm adotado práticas sustentáveis, técnicas agroecológicas e tecnologias inteligentes para enfrentar desafios climáticos e garantir colheitas resilientes. É ali que brotam alimentos que chegam às mesas urbanas, muitas vezes cultivados com muito esforço, planejamento e cuidado.</p>
+
+<p>Além do aspecto produtivo, o campo abriga comunidades que preservam saberes únicos — rituais, festas, artesanato e modos de vida que dialogam diretamente com a terra e com as estações do ano. Essas expressões culturais representam um patrimônio que vai muito além do econômico: são pilares da identidade nacional e fontes de inspiração para soluções sustentáveis.</p>
+
+<p>Por fim, o avanço das tecnologias de comunicação tem encurtado as distâncias entre campo e cidade, permitindo que produtores rurais acessem mercados globais, compartilhem conhecimentos e fortaleçam suas redes de cooperação. Assim, a zona rural emerge não como um espaço isolado, mas como protagonista de um futuro que une inovação, tradição e respeito à natureza.</p>
+
+
+
+
+        <!-- NOVO: CARROSSEL -->
+        <div class="row mt-5">
+            <h3 class="text-center mb-4">Temas em Destaque</h3>
+            <div id="carouselTemas" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="./assets/image/carrossel1.png.jpeg" class="d-block w-100 img-slide" alt="Água potável">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 p-3 rounded">
+                            <h5>Acessibilidade à Água</h5>
+                            <p>Soluções como cisternas, poços e captação de água da chuva promovem saúde e dignidade no campo.</p>
+                            <a href="agua.html" class="btn btn-light btn-sm">Saiba mais</a>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./assets/image/carrossel2.png.jpeg" class="d-block w-100 img-slide" alt="Energia sustentável">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 p-3 rounded">
+                            <h5>Energia Rural Sustentável</h5>
+                            <p>Energia solar e eólica transformam comunidades rurais com economia e sustentabilidade.</p>
+                            <a href="energia.html" class="btn btn-light btn-sm">Saiba mais</a>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./assets/image/carrossel3.png.jpeg" class="d-block w-100 img-slide" alt="Produção agrícola">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 p-3 rounded">
+                            <h5>Produção e Industrialização</h5>
+                            <p>Do campo à cidade, a produção local fortalece a economia e conecta agricultores e consumidores.</p>
+                            <a href="producao.html" class="btn btn-light btn-sm">Saiba mais</a>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselTemas" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselTemas" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <div style="margin: 0 auto; width: 80%; text-align:center; background-color:white; color:black; padding:20px; font-family:Arial, sans-serif;">
+  <p><strong>Zona Rural / Campo e Cidade</strong><br>
+  Fonte: Instituto Brasileiro de Geografia e Estatística (IBGE)<br>
+  <a href="https://www.ibge.gov.br" target="_blank" style="color:purple; text-decoration:none;">
+    https://www.ibge.gov.br
+  </a></p>
+</div>
+
+
+    <footer class="bg-dark text-light text-center py-3 mt-5">
+        <small>&copy; 2025 Agrinho | Site desenvolvido por estudante do Ensino Fundamental com orgulho rural 🌱</small>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
